@@ -26,13 +26,23 @@
  * - Caso encontre dificuldades, consulte a documentação do JavaScript ou peça auxílio a um colega ou professor.
  */
 
-function imprimirNumeros(numero){
-    for (let i = 0; i < numero.length; i++) {
+function imprimirNumeros(numero) {
+    for (let i = 0; i < numero; i++) {
         let element = numero + i;
 
-        console.log(`${element}`)
-        
+        console.log(element)
+
     }
 }
 
-console.log(imprimirNumeros(10))
+function imprimirPares(numero) {
+    for (let index = 2; index <= number; index++) {
+        if (index % 2 === 0) {
+            console.log(index);
+        }
+    }
+}
+console.log('IMPRIMIR NUMEROS')
+imprimirNumeros(5)
+console.log('\nIMPRIMIR PARES')
+imprimirPares(10)
