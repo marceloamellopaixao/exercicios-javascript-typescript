@@ -25,3 +25,14 @@
  * - Experimente criar seus próprios casos de teste para verificar se as funções estão se comportando conforme o esperado.
  * - Caso encontre dificuldades, consulte a documentação do JavaScript ou peça auxílio a um colega ou professor.
  */
+
+function imprimirNumeros(numero){
+    for (let i = 0; i < numero.length; i++) {
+        let element = numero + i;
+
+        console.log(`${element}`)
+        
+    }
+}
+
+console.log(imprimirNumeros(10))
