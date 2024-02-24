@@ -36,7 +36,7 @@ function imprimirNumeros(numero) {
 }
 
 function imprimirPares(numero) {
-    for (let index = 2; index <= number; index++) {
+    for (let index = 2; index <= numero; index++) {
         if (index % 2 === 0) {
             console.log(index);
         }
